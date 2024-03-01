@@ -1,14 +1,7 @@
 controller_list:
-  - name: fake_left_hand_controller
-    type: $(arg fake_execution_type)
-    joints:
-      - hand_1_joint
-  - name: fake_right_hand_controller
-    type: $(arg fake_execution_type)
-    joints:
-      - hand_2_joint
+  []
 initial:  # Define initial robot poses per group
-#  - group: left_hand
+#  - group: group
 #    pose: home
 
   []

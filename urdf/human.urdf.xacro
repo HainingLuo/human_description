@@ -3,21 +3,4 @@
 
     <link name="robot_root"></link>
 
-    <joint name="hand_1_joint" type="floating">
-      <parent link="robot_root"/>
-      <child link="hand_1"/>
-      <origin xyz="0.0 0.0 0.0" rpy="0   0   0"/>
-    </joint>
-   <link name="hand_1">
-    </link>
-
-    <joint name="hand_2_joint" type="floating">
-      <parent link="robot_root"/>
-      <child link="hand_2"/>
-      <origin xyz="0.0 0.0 0.0" rpy="0   0   0"/>
-    </joint>
-   <link name="hand_2">
-    </link>
-
-
 </robot>
